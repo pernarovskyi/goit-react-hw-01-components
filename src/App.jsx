@@ -1,7 +1,12 @@
 import { Section } from "./components/Section";
 import { Profile } from "./components/Profile";
+import { Statistic } from "components/Statistics";
+import { FriendList } from "components/FriendList";
 import user from "./data/user.json";
+import uploadData from "./data/data.json";
+import friends from "./data/friends.json";
 import './index.css';
+
 
 export const App = () => {
   return (
@@ -14,7 +19,15 @@ export const App = () => {
           avatar={user.avatar}
           stats={user.stats}
         />
-      </Section> 
+      </Section>
+
+      <Section title={"Statistic Section"}>
+        <Statistic title="Upload stats" stats={uploadData}/>
+      </Section>
+
+      <Section title={"Friend List"}>
+        <FriendList friends={friends} />
+      </Section>
     </div>
   );
 };
