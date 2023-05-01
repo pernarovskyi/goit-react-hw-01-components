@@ -1,0 +1,46 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px 35px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .status_online, .status_offline{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;  
+    margin-right: 10px;  
+  }
+
+  .status_online {
+    background-color: #1b9c26;
+  }
+
+  .status_offline{
+    background-color: #a82929;
+  }
+
+  .avatar {
+    width: 80px;
+    padding: 15px;
+    margin-right: 20px;
+    border: .5px solid rgb(214, 214, 214);
+    border-radius: 10px;
+  }
+
+  .name{
+    
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  
