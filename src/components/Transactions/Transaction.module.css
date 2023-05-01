@@ -1,0 +1,28 @@
+.transaction_history {
+    width: 100%;
+    
+  }
+  
+  thead {
+    background-color: rgb(0, 188, 213);
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  tbody {
+    color:rgb(162, 165, 167);
+    background-color: #ffffff;
+  }
+  
+  tr {
+    text-align: center;
+    height: 40px;    
+  }
+
+  td:first-child { 
+    text-transform: capitalize;
+}  
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
